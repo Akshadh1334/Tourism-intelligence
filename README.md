@@ -76,6 +76,38 @@ The 80% prediction interval covered **87.5%** of test months (slightly conservat
 Figures are in `results/`: `forecast_grid.png`, `anomalies.png`, `model_comparison.png`, `pricing.png`, `segments.png`, `aspect_sentiment.png`.
 
 ## 5. How to run
+## Output Visualizations & Terminal Outputs
+
+### Terminal Output (`python explore.py Goa`)
+```text
+Month       Forecast       Low      High   Hotel price action
+Oct 2026     215,556   197,363   244,268   RAISE price (x1.23)
+Nov 2026     236,281   216,339   267,754   RAISE price (x1.25)
+Dec 2026     242,374   221,918   274,658   RAISE price (x1.15)
+Jan 2027     215,548   197,357   244,260   HOLD price (x1.00)
+Feb 2027     188,847   172,909   214,002   OFFER discount (x0.92)
+Mar 2027     153,317   140,377   173,739   OFFER discount (x0.85)
+Apr 2027     124,990   114,441   141,639   OFFER discount (x0.75)
+May 2027      99,786    91,364   113,077   OFFER discount (x0.75)
+Jun 2027      90,448    82,815   102,496   OFFER discount (x0.75)
+Jul 2027      90,075    82,472   102,073   OFFER discount (x0.75)
+Aug 2027     103,658    94,909   117,465   OFFER discount (x0.75)
+Sep 2027     152,169   139,326   172,438   OFFER discount (x0.75)
+
+2) BEST TIME TO VISIT
+   * Oct  score 62/100 | weather Ideal | crowd High | ~215,556 tourists
+   * Nov  score 62/100 | weather Ideal | crowd High | ~236,281 tourists
+   * Jan  score 60/100 | weather Ideal | crowd High | ~215,548 tourists
+   Budget pick (quietest with acceptable weather): Apr
+   Avoid: May, Jun, Jul, Aug (poor weather)
+
+3) TRAVELLER REVIEWS
+   Overall positivity 75% | strongest: safety (87%) | weakest: crowd (62%)
+
+4) SIMILAR PLACES
+   - Pondicherry  match 94% | best time Aug
+   - Chennai      match 88% | best time Aug
+   - Andaman      match 83% | best time Oct
 
 ```bash
 git clone <your-repo-url> && cd tourism-intelligence
