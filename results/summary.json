@@ -1,0 +1,84 @@
+{
+  "anomaly": [
+    {
+      "detector": "STL robust z-score",
+      "precision": 0.857,
+      "recall": 1.0,
+      "f1": 0.923,
+      "tp": 48,
+      "fp": 8,
+      "fn": 0
+    },
+    {
+      "detector": "Isolation Forest",
+      "precision": 0.667,
+      "recall": 1.0,
+      "f1": 0.8,
+      "tp": 48,
+      "fp": 24,
+      "fn": 0
+    },
+    {
+      "detector": "Combined (voting)",
+      "precision": 0.889,
+      "recall": 1.0,
+      "f1": 0.941,
+      "tp": 48,
+      "fp": 6,
+      "fn": 0
+    }
+  ],
+  "forecast": {
+    "metrics": [
+      {
+        "model": "Seasonal naive",
+        "MAPE_validation": 0.0919,
+        "MAPE_test": 0.0886,
+        "RMSE_test": 15761.2599
+      },
+      {
+        "model": "Holt-Winters",
+        "MAPE_validation": 0.0855,
+        "MAPE_test": 0.0733,
+        "RMSE_test": 14311.6818
+      },
+      {
+        "model": "Trend + Gradient Boosting",
+        "MAPE_validation": 0.0829,
+        "MAPE_test": 0.0714,
+        "RMSE_test": 13845.8061
+      },
+      {
+        "model": "Ensemble",
+        "MAPE_validation": 0.08,
+        "MAPE_test": 0.0682,
+        "RMSE_test": 13931.8257
+      }
+    ],
+    "weights": {
+      "hw": 0.4920370248683133,
+      "gbm": 0.5079629751316866
+    },
+    "coverage": 0.875
+  },
+  "pricing": {
+    "elasticity_mae": 0.03386002007300241,
+    "revenue_uplift_pct": 5.418876347728374
+  },
+  "sentiment": {
+    "accuracy": 0.9368055555555556,
+    "f1": 0.9609274366680979,
+    "n_train": 5760.0,
+    "n_test": 1440.0,
+    "aspect_tag_coverage": 1.0
+  },
+  "segmentation": {
+    "k": 3,
+    "silhouette": {
+      "2": 0.2141955742975263,
+      "3": 0.23164820081193704,
+      "4": 0.20747997716162478,
+      "5": 0.21742767437463673
+    }
+  }
+}

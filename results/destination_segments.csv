@@ -1,0 +1,13 @@
+place,peak_month,log_arrivals,seasonality,peak_sin,peak_cos,foreign_share,growth,covid_resilience,log_adr,comfort,elasticity,sentiment,cluster,pc1,pc2,segment
+Andaman,12,10.714,0.283,-0.0,1.0,0.181,0.044,0.538,9.095,0.422,0.762,0.858,0,1.709,-2.693,fast growth + premium priced (winter-peak)
+Chennai,2,11.069,0.194,0.866,0.5,0.101,0.054,0.493,8.637,0.308,1.013,0.79,0,-1.304,-1.927,fast growth + premium priced (winter-peak)
+Darjeeling,4,10.651,0.269,0.866,-0.5,0.1,0.046,0.449,8.4,0.233,1.272,0.792,2,-3.35,-0.749,price sensitive + strong seasonality (summer-peak)
+Goa,12,11.737,0.38,-0.0,1.0,0.253,0.021,0.577,8.858,0.483,1.141,0.746,1,3.069,2.236,high volume + covid resilient (winter-peak)
+Jaipur,12,11.274,0.353,-0.0,1.0,0.201,0.033,0.584,8.574,0.414,1.18,0.773,1,1.67,1.287,high volume + covid resilient (winter-peak)
+Kerala,12,11.42,0.298,-0.0,1.0,0.119,0.041,0.492,8.723,0.429,0.874,0.769,0,1.055,-0.004,fast growth + premium priced (winter-peak)
+Manali,5,10.978,0.342,0.5,-0.866,0.06,0.028,0.438,8.498,0.258,1.314,0.816,2,-2.895,0.874,price sensitive + strong seasonality (summer-peak)
+Munnar,11,10.92,0.276,-0.5,0.866,0.079,0.044,0.514,8.528,0.458,1.227,0.864,0,0.199,-0.332,fast growth + premium priced (winter-peak)
+Ooty,5,11.002,0.319,0.5,-0.866,0.03,0.046,0.423,8.304,0.492,1.456,0.734,2,-2.846,1.776,price sensitive + strong seasonality (summer-peak)
+Pondicherry,2,10.827,0.217,0.866,0.5,0.221,0.048,0.527,8.692,0.399,1.001,0.752,0,-0.13,-1.67,fast growth + premium priced (winter-peak)
+Udaipur,12,11.051,0.335,-0.0,1.0,0.296,0.07,0.542,8.942,0.449,1.034,0.81,0,2.281,-1.521,fast growth + premium priced (winter-peak)
+Varanasi,11,11.331,0.359,-0.5,0.866,0.151,0.041,0.551,8.245,0.369,1.391,0.724,1,0.543,2.723,high volume + covid resilient (winter-peak)

@@ -1,0 +1,4 @@
+detector,precision,recall,f1,tp,fp,fn
+STL robust z-score,0.8571428571428571,1.0,0.923076923076923,48,8,0
+Isolation Forest,0.6666666666666666,1.0,0.8,48,24,0
+Combined (voting),0.8888888888888888,1.0,0.9411764705882353,48,6,0
