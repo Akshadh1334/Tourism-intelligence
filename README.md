@@ -74,9 +74,25 @@ The 80% prediction interval covered **87.5%** of test months (slightly conservat
 **Segmentation:** k = 3 chosen by silhouette (0.23).
 
 Figures are in `results/`: `forecast_grid.png`, `anomalies.png`, `model_comparison.png`, `pricing.png`, `segments.png`, `aspect_sentiment.png`.
-
 ## 5. How to run
-## Output Visualizations & Terminal Outputs
+
+```bash
+# Clone the repository
+git clone [https://github.com/Akshadh1334/Tourism-intelligence.git](https://github.com/Akshadh1334/Tourism-intelligence.git)
+cd Tourism-intelligence
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run full pipeline to regenerate data & plots
+python main.py --regen
+
+# Query insights for a specific place
+python explore.py Goa
+
+
+
+## 6. Output Visualizations & Terminal Outputs
 
 ### Terminal Output (`python explore.py Goa`)
 ```text
@@ -108,19 +124,6 @@ Sep 2027     152,169   139,326   172,438   OFFER discount (x0.75)
    - Pondicherry  match 94% | best time Aug
    - Chennai      match 88% | best time Aug
    - Andaman      match 83% | best time Oct
-
-```bash
-git clone <your-repo-url> && cd tourism-intelligence
-pip install -r requirements.txt
-
-python main.py --regen          # full pipeline, writes data/ and results/
-python explore.py Goa           # forecast, best time, price plan, reviews, similar places
-python explore.py --recommend beach=9 nightlife=7 budget=5 --month 12
-```
-
-Runtime is roughly 10 seconds on a laptop.
-
-## 6. Project structure
 
 ```
 tourism-intelligence/
